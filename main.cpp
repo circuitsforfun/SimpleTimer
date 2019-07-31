@@ -19,7 +19,6 @@ int main() {
     // store a lambda
     std::function<void()> f_task_hello = []() { task1("hello"); };
     std::function<void()> f_task_bye = []() { task1("bye"); };
-
     Timer t1(f_task_hello, 1000);
     Timer t2(f_task_bye, 2000);
 

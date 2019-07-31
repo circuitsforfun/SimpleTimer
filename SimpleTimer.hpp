@@ -110,7 +110,7 @@ public:
     }
 
 private:
-    // Function to be executed fater interval
+    // Function to be executed after interval
     std::function<void(void)> m_func;
     // Timer interval in milliseconds
     long m_interval;
